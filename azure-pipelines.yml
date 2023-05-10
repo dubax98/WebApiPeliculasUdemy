@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'vs2022-win2022'
+  vmImage: 'vs2022-win2019'
 
 variables:
   buildConfiguration: 'Release'
